@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ju
+  pool: 5
+  username: ju
+  password: '550055'
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: ju_test
+  pool: 5
+  username: ju
+  password: '550055'
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: ju
+  pool: 5
+  username: ju
+  password: '550055'
